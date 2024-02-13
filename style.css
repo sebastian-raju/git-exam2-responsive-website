@@ -1,0 +1,44 @@
+.profile-menus{
+  height:100vh
+}
+
+.first-column-para{
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.menu1{
+  border-top: 1px solid rgb(255, 100, 100);
+}
+.menu2{
+  border-top: 1px solid rgb(255, 100, 100);
+  border-bottom: 1px solid rgb(255, 100, 100);
+}
+.menu3{
+  border-bottom: 1px solid rgb(255, 100, 100);
+}
+
+.heading-welcome{
+  background: url('./images/abstract-dark-red-curve-background-overlap-vector-42109527.jpg') no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.nav-bar-section{
+  background: url('./images/abstract-dark-red-curve-background-overlap-vector-42109527.jpg') no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width:992px){
+  .profile-menus{
+  height:250px
+}
+.first-column-para{
+  border: 1px solid rgb(215, 215, 215);
+  
+}
+
+
+}
